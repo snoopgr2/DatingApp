@@ -1,0 +1,16 @@
+update teh fully qualified names for db connections
+ask scott: sendgrid = use what we use in DH. comoon env vars notification section
+recreate the stagiong slot once we finish config for main slot.
+
+update deploy file
+update gatekeeper.deply-template.yml
+	line 101 update authentication through 
+	DeployGatekeeperazurewebsite.ps1 line 220
+
+run wixsetup project.  
+then run createtargetedpackage.ps1 file
+
+the run deploygatekeeper ps1
+
+
+d: builds = make a profile for gatekeeperprod
